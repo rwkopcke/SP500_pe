@@ -7,7 +7,10 @@
 - projections of operating and reported earnings
 - interest rate on 10-year TIPS
 - operating margins for the S&P500
+
+### Future extension
 - composition of earnings by "industry"
+
 ### update_data.py
 - reads new data from .xlsx workbooks in input_dir
 - S&P data downloaded from S&P's weekly posts
