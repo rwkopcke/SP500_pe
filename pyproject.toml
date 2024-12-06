@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "s&p500-pe"
+version = "0.1.0"
+description = "compare projected p/e to real interest rates"
+authors = ["Richard Kopcke <rwkopcke@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openpyxl = "^3.1.5"
+polars = "^1.4.1"
+matplotlib = "^3.9.1.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
